@@ -1,0 +1,72 @@
+/* Général et police*/
+html{font-family : Candara; font-size: 100%;}
+body {width: 100%;  margin : auto; font-size: 1.2em;}
+h1 { text-align: center; padding-top: 2px; font-size: 5em; color : rgb(255, 255, 255); margin-top: 0px;}
+h2 { font-size: 1.5em; color: rgb(180, 9, 20);}
+
+
+/* mise en page*/
+
+section
+{
+border: 1px solid black; padding: 6px;
+text-align: center;
+background-image: url('image/couverture.jpg')
+}
+
+article, div
+{
+border: 1px solid black; border-radius: 6px; margin: 12px; padding: 20px;
+text-align: justify; background-image: url('image/papier.jpg');
+}
+
+.img
+{
+width: fit-content;
+display: block;
+margin: auto;
+}
+
+article
+{
+display: inline-block; width: 80%; vertical-align: middle;
+}
+
+div
+{
+ position: fixed; width: 25%; top: 0%; right:0%;
+}
+
+header 
+{
+position: relative; width: 100%; height: 150px;
+background-image: url('image/dark.jpg'); background-repeat: repeat-x;
+}
+
+footer
+{
+width: 100%; height: 100px;
+text-align: center; line-height: 100px;
+background-image: url('image/nuit.jpg'); background-repeat: repeat-x;
+}
+
+/*menu de navigation*/
+
+nav{position: absolute; left: 10%; bottom: -1px;}
+ul {list-style-type:none; margin:0; padding: 0;}
+li
+{
+display: inline-block; width: 350px; min-height : 0px;
+border: 1px solid black; border-radius: 6px 6px 0px 0px; margin: 0px 2px; padding: 0.5em;
+text-align: center;
+background-image: url('image/couverture.jpg');
+}
+li.active {background-image: url('image/papier.jpg'); border-bottom : 1px solid white;}
+li.active a{color: black;}
+a.menu {text-decoration: none; color: white; display: inline-block; }
+
+
+
+
+
+
